@@ -1,0 +1,5 @@
+CREATE TABLE Location
+(   LocationId INT IDENTITY PRIMARY KEY,
+    State VARCHAR(50) NOT NULL,
+    City VARCHAR(50) NOT NULL
+    )

@@ -1,0 +1,5 @@
+CREATE TABLE Store
+(   StoreId INT IDENTITY PRIMARY KEY,
+    state VARCHAR(50) NOT NULL,
+    City VARCHAR(50) NOT NULL
+    )
